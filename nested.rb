@@ -128,7 +128,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     binding.pry 
      return programmer_hash[:dennis_ritchie][:languages]
 end
 
+adding_to_dennis
+binding.pry
